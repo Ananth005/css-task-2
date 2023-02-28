@@ -1,0 +1,88 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+body>*{
+    text-align: center;
+}
+.do{
+    background-color: #EA4335;
+    border-radius:5px 5px 0 5px;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: calc((50% - 200px));
+    left: calc((50% - 200px));
+    
+}
+.plan{
+    background-color: #34A383;
+    border-radius: 5px 5px 5px 0;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: calc((50% - 200px));
+    left: calc((50% + 2px));
+
+}
+.delegate{
+    background-color: #FBBC05;
+    border-radius:5px 0 5px 5px;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: calc((50% + 2px));
+    left: calc((50% - 200px));;
+}
+.eliminate{
+    background-color: #4285F4;
+    border-radius: 0 5px 5px 5px;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: calc((50% + 2px));
+    left: calc((50% + 2px));
+}
+.urgent{
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    background-color: gray;
+    top: calc((50% - 28%));
+    left: calc((50% - 11.5%));
+    border-radius: 5px 5px 0 0;
+}
+.not-urgent{
+    position: absolute;
+    width: 170px;
+    height: 22px;
+    background-color: gray;
+    top: calc((50% - 28%));
+    right: calc((50% - 11.5%));
+    border-radius: 5px 5px 0 0;
+}
+.important{
+    transform: rotate(-90deg);
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    background-color: gray;
+    top: calc((50% - 14.5%));
+    left: calc((50% - 18.5%));
+    border-radius: 5px 5px 0 0;
+    z-index: -1;
+}
+.not-important{
+    transform: rotate(-90deg);
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    font-size: 13px;
+    align-items: center;
+    background-color: gray;
+    bottom: calc((50% - 14.5%));
+    left: calc((50% - 18.5%));
+    border-radius: 5px 5px 0 0;
+}

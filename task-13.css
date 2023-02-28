@@ -1,0 +1,93 @@
+body 
+{
+  font-family:sans-serif; 
+  background: linear-gradient(to right, #f5f7f6, #5ca0f2);  
+  
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+form{
+    width:35rem;
+    margin: auto;
+    color:whitesmoke;
+    background-color: rgba(13, 115, 159, 0.82);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px 25px;
+    width:60%;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 35px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+  }
+
+button {
+    background-color: #0087ef;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 35px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+  }
+
+.container{display:flex;flex-wrap: wrap;align-items: center;padding:auto;}
+.image{width:50%;}
+
+.headingsContainer{
+    text-align: center;
+}
+.mainContainer{
+    padding: 16px;align-items: center;margin-left:10%;
+}
+
+
+.subcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subcontainer a{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+span.forgotpsd a {
+    float: right;
+    color: whitesmoke;
+    padding-top: 16px;
+  }
+
+.forgotpsd a{
+    color: rgb(74, 146, 235);
+  }
+  
+.forgotpsd a:link{
+    text-decoration: none;
+  }
+
+  .register{
+    color: white;
+    text-align: center;
+  }
+  
+  .register a{
+    color: rgb(74, 146, 235);
+  }
+  
+  .register a:link{
+    text-decoration: none;
+  }
+
+  
